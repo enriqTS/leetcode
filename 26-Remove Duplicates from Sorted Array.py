@@ -1,5 +1,5 @@
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: List[int]) -> int:  # noqa: F821
         i = 0 # Ponteiro/iterador que marca a posicao em que vamos colocar o item não duplicado
         j = 1 # Ponteiro/iterador que marca o valor que estamos comparando com o valor presente em i
 

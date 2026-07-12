@@ -1,6 +1,6 @@
 class Solution:
     # Minha solucao inicial 
-    def removeElement1(self, nums: List[int], val: int) -> int:
+    def removeElement1(self, nums: List[int], val: int) -> int:  # noqa: F821
         k = 0 # Quantidade de itens diferente de val
 
         for i in range(len(nums)): # For loop que substitui os itens invalidos por -1 e incrementa k se for valido
@@ -24,7 +24,7 @@ class Solution:
         return k # Retorna a quantidade de itens válidos, como solicitado pelo exercicio
     
     # Solucao mais otimizada
-    def removeElement2(self, nums: List[int], val: int) -> int:
+    def removeElement2(self, nums: List[int], val: int) -> int:  # noqa: F821
         i = 0 # ponteiro para todos os itens do vetor nums
         k = 0 # ponteiro para os itens validos do vetor nums
 
